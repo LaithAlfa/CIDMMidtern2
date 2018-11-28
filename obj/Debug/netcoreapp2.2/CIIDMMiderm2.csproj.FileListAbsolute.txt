@@ -15,10 +15,8 @@ C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.A
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.TagHelpers.input.cache
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.TagHelpers.output.cache
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.RazorCoreGenerate.cache
-C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Home\DoCalculation.g.cshtml.cs
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
-C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Home\ShowCalculation.g.cshtml.cs
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -31,3 +29,5 @@ C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.V
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.csproj.CopyComplete
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.dll
 C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\CIIDMMiderm2.pdb
+C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Math\DoCalculation.g.cshtml.cs
+C:\CIDM3312-BUFFTEKS PROJECT\CIIDMMiderm2\obj\Debug\netcoreapp2.2\Razor\Views\Math\ShowCalculation.g.cshtml.cs

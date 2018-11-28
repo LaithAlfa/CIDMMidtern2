@@ -12,22 +12,22 @@ namespace CIIDMMiderm2.Controllers
 {
     public class MathController : Controller
     {
-        
+        [HttpGet]
         public IActionResult DoCalculation()
         {
            
             return View();
         }
         [HttpPost]
-        public IActionResult ShowCalculationResults(MathOperation model)
+        public IActionResult ShowCalculation(MathOperation model)
         {
              switch (model.Operator) {
-                case "ADD":
+                case "Add":
                     model.Result = (MyMathRoutines.Add(model.LeftOperand ,model.RightOperand));                  
                     break;
 
                 case "Subtract":   
-                    model.Result = ( MyMathRoutines.Subtract(model.LeftOperand ,model.RightOperand));
+                    model.Result = (MyMathRoutines.Subtract(model.LeftOperand ,model.RightOperand));
                     break;
                 case "Multiply":
                     model.Result = (MyMathRoutines.Multiply(model.LeftOperand ,model.RightOperand));
@@ -35,16 +35,15 @@ namespace CIIDMMiderm2.Controllers
                 case "Divide":
                     model.Result = (MyMathRoutines.Divide(model.LeftOperand ,model.RightOperand));
                 break;
+                
+                default:
+                break;
              }
 
             
             return View(model); 
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+      
     }
 }
