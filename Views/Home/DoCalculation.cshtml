@@ -1,0 +1,51 @@
+@model CIIDMMiderm2.Models.MathOperation
+
+
+<form asp-controller="Home" asp-action="ShowCalculationForm" class="form-horizontal">
+<fieldset>
+
+    <!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Text input-->
+ <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Left Number</label>
+                <input asp-for="@Model.LeftOperand" type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Right Number</label>
+                <input asp-for="@Model.RightOperand" type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+        
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
+  <div class="col-md-4">
+    <select asp-for="@Model.Operator" id="selectbasic" name="selectbasic" class="form-control">
+      <option value="ADD">ADD</option>
+      <option value="Subtract">Subtract</option>
+      <option value="Multiply">Multiply</option>
+      <option value="Divide">Divide</option>
+    </select>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton">Single Button</label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Button</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
