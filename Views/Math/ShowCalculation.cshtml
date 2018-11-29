@@ -1,12 +1,11 @@
-@model MathOperation
+@model CIIDMMiderm2.Models.MathOperation
 
-<P>
-    The Answer you entered is 
-    <ul>
-        <li>@Model.Result</li>
-    </ul>
-</P>
+@{
+    ViewData["Title"] = "Result";
+}
+<h1>@ViewData["Title"]</h1>
 
+<p>The result of the calcualtion is @Model.Result.</p>
 
 
       

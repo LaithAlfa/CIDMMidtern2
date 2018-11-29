@@ -15,8 +15,10 @@ namespace CIIDMMiderm2.Controllers
         [HttpGet]
         public IActionResult DoCalculation()
         {
-           
+            
+            
             return View();
+            
         }
         [HttpPost]
         public IActionResult ShowCalculation(MathOperation model)

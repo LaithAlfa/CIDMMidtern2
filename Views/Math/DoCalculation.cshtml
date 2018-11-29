@@ -1,4 +1,4 @@
-@model MathOperation
+@model CIIDMMiderm2.Models.MathOperation
 
 
 <form asp-controller="Math" asp-action="ShowCalculation" class="form-horizontal" method="POST">
@@ -11,14 +11,14 @@
       <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">Left Number</label>
-                <input asp-for="@Model.LeftOperand" type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <input asp-for="@Model.LeftOperand"type="number1" class="form-control" id="left" placeholder="Number left">
                 <div class="invalid-feedback">
                   Valid first name is required.
                 </div>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Right Number</label>
-                <input asp-for="@Model.RightOperand" type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <input asp-for="@Model.RightOperand" type="number1" class="form-control" id="right" placeholder="Number right">
                 <div class="invalid-feedback">
                   Valid last name is required.
                 </div>
@@ -30,8 +30,8 @@
   <div class="form-group">
     <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
     <div class="col-md-4">
-      <select asp-for="@Model.Operator" id="selectbasic" name="selectbasic" class="form-control">
-        <option value="Add">ADD</option>
+      <select asp-for="@Model.Operator" class="form-control">
+        <option value="Add">Add</option>
         <option value="Subtract">Subtract</option>
         <option value="Multiply">Multiply</option>
         <option value="Divide">Divide</option>
